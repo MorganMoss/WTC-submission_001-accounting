@@ -5,7 +5,6 @@ import sys
 
 
 def main():
-    print("Authenticating User")
     if authentication.authenticate_user():
         journal.receive_income(100)
         journal.pay_expense(100)
@@ -15,5 +14,5 @@ def main():
 if __name__ == "__main__":
     for arg in sys.argv[1:]:
         print(arg)
-    help("modules") 
+    # help("modules") 
     main()

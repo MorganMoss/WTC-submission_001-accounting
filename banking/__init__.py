@@ -1,3 +1,3 @@
-print("[Package] banking package loaded.")
+print("[Package] Banking package loaded.")
 from .fvb import reconciliation
 

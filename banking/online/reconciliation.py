@@ -1,5 +1,5 @@
 import requests
-print("[Module] Online.reconciliation loaded.")
+print("[Module] online.Reconciliation loaded.")
 
 def do_reconciliation():
     print("Doing Online Bank reconciliation.")
