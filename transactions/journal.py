@@ -1,5 +1,6 @@
 print("[Module] Journal loaded.")
 
+
 def receive_income(amount:float):
     """
     Receives some income, don't know what you want me to say ¯\_(ツ)_/¯
@@ -9,6 +10,7 @@ def receive_income(amount:float):
         amount (float): the amount of money you receive
     """
     print(f"[Journal] Received R{amount:.2f}")
+
 
 def pay_expense(amount:float):
     """

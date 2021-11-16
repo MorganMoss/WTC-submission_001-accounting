@@ -1,4 +1,6 @@
 print("[Module] User Authentication loaded.")
+
+
 def authenticate_user():
     """
     Authenticates user
